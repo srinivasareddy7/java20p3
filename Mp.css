@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+    color:black;
+}
+
+.music-player {
+    background: #ebeece;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.controls {
+    margin: 20px 0;
+}
+
+button {
+    background: burlywood;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    /* transition: background 0.3s; */
+}
+
+button:hover {
+    background: #d1dddf;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+
+.playlist ul {
+    list-style-type: none;
+}
+
+.playlist li {
+    cursor: pointer;
+    padding: 5px;
+    /* transition: background 0.3s; */
+}
+
+.playlist li:hover {
+    background: #fc4444;
+}
